@@ -1,0 +1,77 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.719);
+    
+}
+nav a{
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    padding: 10px;
+    
+    
+}
+p{
+    text-align: justify;
+    padding: 15px 100px;
+    background-color: rgb(27, 81, 163);
+    margin-top: 0;
+    font-size: 1.25em;
+    color: white;
+}
+span{
+    color: yellowgreen;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkgray;
+}
+.title{
+    text-align: center;
+    color: white;
+    background-color: rgb(119, 10, 10);
+    margin-top: 10px;
+    padding: 2px 5px;
+    border-radius: 15px;
+}
+.cards{
+    border: 2px solid goldenrod;
+    width: 20%;
+    height: 400px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-left: 100px;
+}
+.cards img{
+    width: 100%;
+}
+.cards h5{
+    color: rgb(37, 33, 33);
+}
+.my-projects{
+    display: flex;
+    margin-left: 50px;
+    padding: 15px;
+}
+footer{
+    text-align: center;
+    margin-top: 15px;
+    background-color: goldenrod;
+}
+footer p{
+    display: inline-block;
+    background-color: rgb(119, 89, 89);
+    border-radius: 10px;
+}
+.fab{
+    font-size: 2em;
+}
